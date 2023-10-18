@@ -1,0 +1,1 @@
+export { CustomAccordeon } from './CustomAccordeon';

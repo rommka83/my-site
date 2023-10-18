@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.text-color {
+  @apply text-gray-800 dark:text-gray-500;
+}
+.bg-btn {
+  @apply bg-gradient-to-tl from-white to-black hover:from-black hover:to-white 
+  hover:bg-gradient-to-tl disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none
+  active:from-red-100 text-orange-100 hover:text-black;
+}
+.my-shadow {
+  @apply shadow-gray-300 dark:shadow-gray-800;
+}
