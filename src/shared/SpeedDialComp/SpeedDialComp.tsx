@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   SpeedDialHandler,
   IconButton,
@@ -11,7 +10,7 @@ import { copyContact } from './SpeedDial.service';
 
 export function SpeedDialComp() {
   return (
-    <div className='fixed bottom-10 right-36 z-10'>
+    <div className='fixed bottom-10 right-10 z-10 md:right-20 lg:right-28'>
       <SpeedDial>
         <SpeedDialHandler className='bg-gray-800 dark:bg-gray-500'>
           <IconButton size='lg' className='rounded-full'>

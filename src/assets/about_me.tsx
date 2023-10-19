@@ -1,6 +1,6 @@
 export const about_me = [
   {
-    year: '2019',
+    year: '2018',
     description: 'Вёрстка? Не, не слышал...',
     icon: (
       <svg

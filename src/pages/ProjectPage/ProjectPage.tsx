@@ -1,4 +1,3 @@
-import React from 'react';
 import { Carousel } from '../../widgets/Carousel';
 import { Typography } from '@material-tailwind/react';
 

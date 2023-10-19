@@ -29,8 +29,9 @@ export function Header({ children }: IHeader) {
         className='p-1 font-normal'
       >
         <Link
-          to='/projects'
+          to='/my-site/projects'
           className='text-color flex items-center'
+          onClick={() => setOpenNav(false)}
         >
           Проекты
         </Link>
@@ -41,8 +42,9 @@ export function Header({ children }: IHeader) {
         className='p-1 font-normal'
       >
         <Link
-          to='/technologies'
+          to='/my-site/technologies'
           className='text-color flex items-center'
+          onClick={() => setOpenNav(false)}
         >
           Технологии
         </Link>
@@ -53,8 +55,9 @@ export function Header({ children }: IHeader) {
         className='p-1 font-normal'
       >
         <Link
-          to='/about-me'
+          to='/my-site/about-me'
           className='text-color flex items-center'
+          onClick={() => setOpenNav(false)}
         >
           О себе
         </Link>
@@ -71,7 +74,7 @@ export function Header({ children }: IHeader) {
             className='mr-4 cursor-pointer py-1.5 font-medium'
           >
             <Link
-              to='/'
+              to='/my-site'
               className='text-color flex items-center'
             >
               Главная

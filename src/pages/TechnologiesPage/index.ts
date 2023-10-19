@@ -1,1 +1,3 @@
-export { TechnologiesPage } from './TechnologiesPage';
+import { TechnologiesPage } from './TechnologiesPage';
+
+export default TechnologiesPage;

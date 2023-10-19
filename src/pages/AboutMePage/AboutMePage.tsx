@@ -1,4 +1,3 @@
-import React from 'react';
 import { AboutMe } from '../../widgets/AboutMe';
 import {
   Tabs,
@@ -18,11 +17,11 @@ export function AboutMePage() {
       child: <AboutMe />,
     },
     {
-      label: 'Чуть подробнее',
+      label: 'Подробнее',
       child: <AboutMeDetails />,
     },
     {
-      label: 'Часто задаваемые вопросы',
+      label: 'FAQ',
       child: <CustomAccordeon />,
     },
     {

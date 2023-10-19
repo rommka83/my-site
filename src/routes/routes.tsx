@@ -1,12 +1,15 @@
-import App from '../app/App';
-import { AboutMePage } from '../pages/AboutMePage';
-import { GeneralPage } from '../pages/GeneralPage';
-import { ProjectPage } from '../pages/ProjectPage';
-import { TechnologiesPage } from '../pages/TechnologiesPage';
+/* eslint-disable react-refresh/only-export-components */
+import { lazy } from 'react';
+
+const App = lazy(() => import('../app/App'));
+const AboutMePage = lazy(() => import('../pages/AboutMePage'));
+const GeneralPage = lazy(() => import('../pages/GeneralPage'));
+const ProjectPage = lazy(() => import('../pages/ProjectPage'));
+const TechnologiesPage = lazy(() => import('../pages/TechnologiesPage'));
 
 export const routes = [
   {
-    path: '/',
+    path: '/my-site',
     element: <App />,
     children: [
       {
@@ -14,15 +17,15 @@ export const routes = [
         element: <GeneralPage />,
       },
       {
-        path: '/projects',
+        path: '/my-site/projects',
         element: <ProjectPage />,
       },
       {
-        path: '/technologies',
+        path: '/my-site/technologies',
         element: <TechnologiesPage />,
       },
       {
-        path: '/about-me',
+        path: '/my-site/about-me',
         element: <AboutMePage />,
       },
     ],

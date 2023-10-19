@@ -50,7 +50,7 @@ export function AboutMe() {
   };
 
   return (
-    <div className='container overflow-x-hidden px-14'>
+    <div className='container overflow-x-hidden px-6 md:px-14'>
       <Typography variant='h2' className='text-color my-10'>
         Это, прям, ну совсем если коротко:
       </Typography>

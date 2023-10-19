@@ -1,1 +1,3 @@
-export { AboutMePage } from './AboutMePage';
+import { AboutMePage } from './AboutMePage';
+
+export default AboutMePage;

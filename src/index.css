@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+head,
+body {
+  height: 100%;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }

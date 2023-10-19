@@ -1,1 +1,3 @@
-export { GeneralPage } from './GeneralPage';
+import { GeneralPage } from './GeneralPage';
+
+export default GeneralPage;

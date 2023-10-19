@@ -2,7 +2,6 @@ import {
   Progress,
   Typography,
 } from '@material-tailwind/react';
-import React from 'react';
 import { technologies } from '../../assets/technologies';
 import { level } from './Technologies.service';
 import { nanoid } from 'nanoid';
