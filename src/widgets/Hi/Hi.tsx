@@ -9,7 +9,9 @@ export function Hi() {
       <div className='flex items-center'>
         <div
           className={`${
-            import.meta.env.PROD ? 'bg-[url("../img/white1.webp")]' : 'bg-[url("img/white1.webp")]'
+            import.meta.env.PROD
+              ? 'bg-[url("../img/photo_2023-10-21-opt.webp")]'
+              : 'bg-[url("img/photo_2023-10-21-opt.webp")]'
           } aspect-square basis-2/6 rounded-full bg-cover opacity-80 dark:opacity-50`}
         ></div>
         <div className='max-h-80 basis-4/6 overflow-y-scroll pl-8'>
