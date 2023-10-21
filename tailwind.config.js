@@ -5,8 +5,7 @@ const withMT = require('@material-tailwind/react/utils/withMT');
 
 /** @type {import('tailwindcss').Config} */
 export default withMT({
-  // purge: ['./src/**/*.tsx'], настройка оптимизации
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  content: ['./index.html', './src/**/*.{ts,tsx}'],
   theme: {
     container: {
       center: true,
